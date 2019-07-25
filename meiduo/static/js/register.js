@@ -67,21 +67,30 @@ var vm = new Vue({
             }
 
             if(this.error_name == false){
-                let url= '/usernames/' + this.username;
-                axios.get(url).then(response =>{
+            //    符合5-20字符的时候再发送请求
+                let url = '/usernames/' + this.username;
+                //then()        成功的函数
+                // catch()      失败的函数
+                axios.get(url).then(response=>{
+                //    成功的代码
+                //    我们是通过 response.data 来获取数据的
                     data = response.data
-                    // data相当于{conut：0,1}
-                    if(data.count ==0){
+                //    {'count':0/1}
+                //    0: 表示没有重复
+                //    1: 表示重复
+                    if(data.count == 0){
+                    //    没有重复
                         this.error_name=false;
-                    }else{
+                    }else {
                         this.error_name=true;
-                        this.error_name_message='用户名重复';
+                        this.error_name_message='哥们,哥们,你的用户名好像和嫂子一样哎'
                     }
+
                 }).catch(error=>{
+                    //失败的代码
                     console.log(error)
                 })
             }
-
 
         },
         // 检查密码
@@ -96,19 +105,40 @@ var vm = new Vue({
         // 确认密码
         check_password2: function () {
             if (this.password != this.password2) {
-                this.error_check_password = true;
+                this.error_password2= true;
+                this.error_password2_message = '密码不一致';
             } else {
                 this.error_check_password = false;
             }
         },
         // 检查手机号
         check_mobile: function () {
-            var re = /^1[345789]\d{9}$/;
+            var re = /^1[3456789]\d{9}$/;
             if (re.test(this.mobile)) {
-                this.error_phone = false;
+                this.error_mobile = false;
             } else {
                 this.error_mobile_message = '您输入的手机号格式不正确';
-                this.error_phone = true;
+                this.error_mobile = true;
+            }
+            if (this.error_mobile == false) {
+                //拼接url
+                let url = '/mobiles/'+ this.mobile + '/count/';
+                axios.get(url, {
+                    responseType: 'json'
+                })
+                    .then(response => {
+                        //成功之后进行判断
+                        if (response.data.count == 1) {
+                            this.error_mobile_message = '手机号已存在';
+                            this.error_mobile = true;
+                        } else {
+                            this.error_mobile = false;
+                        }
+                    })
+                    .catch(error => {
+                        //失败控制台打印信息
+                        console.log(error.response);
+                    })
             }
 
         },
