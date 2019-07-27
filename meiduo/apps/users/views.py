@@ -1,3 +1,4 @@
+import json
 import re
 from django.contrib.auth import login
 from django.http import JsonResponse
@@ -8,6 +9,9 @@ from django import http
 from django.db import DatabaseError
 import logging
 from django_redis import get_redis_connection
+
+from utils.views import LoginRequiredJSONMixin
+
 logger = logging.getLogger('django')
 
 # 用户注册视图
@@ -132,19 +136,15 @@ class LoginView(View):
 
         response = redirect(reverse('contents:index'))
         if remembered != 'on':
-            response.set_cookie('username', user.username, max_age=0)
+            response.set_cookie('username', user.username, max_age=None)
         else:
             response.set_cookie('username', user.username, max_age=3600 * 24 * 14)
 
         return response
 
 
-
-
-
 # 退出登陆
 from django.contrib.auth import logout
-
 
 class LogoutView(View):
     def get(self,request):
@@ -171,21 +171,33 @@ class UserInfoView(LoginRequiredMixin,View):
         return render(request, 'user_center_info.html',context=context)
 
 
-    # def get(self,request):
-    #     next = request.GET.get('next')
-    #     if next:
-    #         response = redirect(next)
-    #     else:
-    #         response = redirect(reverse('users:info'))
-    #
-    #     return response
+class EmailView(LoginRequiredJSONMixin,View):
 
-    # def get_redirect_field_name(self,request):
-    #
-    #     next = request.GET.get('next')
-    #     if next:
-    #         response = redirect(next)
-    #     else:
-    #         response = redirect(reverse('users:info'))
-    #
-    #     return response
+    def put(self,request):
+        # １．用户必须登陆
+        # ２．接受用户提交的信息
+        # data = request.POST
+
+        # (1)获取ｂｏｄｙ数据
+        body = request.body
+        # （２）ｂｏｄｙ数据是ｂｙｔｅｓ类型，进行转换
+        body_str=body.decode()
+        # （３）对字符串ｊｓｏｎ进行转换
+        data = json.loads(body_str)
+        email = data.get('email')
+        # ３．验证邮箱是否符合规则
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$',email):
+            return http.JsonResponse({'code':'nono','errmsg':'参数错误'})
+        try:
+            # ４．更新数据
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            logger.error(e)
+            return http.JsonResponse({'code':'nono','errmsg':'更新错误'})
+        # ５．发送邮件
+
+
+        # ６．返回响应
+        return http.JsonResponse({'code':'ok','errmsg':'ok'})
+        pass
