@@ -161,8 +161,14 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 class UserInfoView(LoginRequiredMixin,View):
 
     def get(self,request):
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active
+        }
 
-        return render(request, 'user_center_info.html')
+        return render(request, 'user_center_info.html',context=context)
 
 
     # def get(self,request):
