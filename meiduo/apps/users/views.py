@@ -10,7 +10,7 @@ from django.db import DatabaseError
 import logging
 from django_redis import get_redis_connection
 
-from apps.users.utils import generic_verify_email_url
+from apps.users.utils import generic_verify_email_url, check_verfy_email_token
 from meiduo import settings
 from utils.views import LoginRequiredJSONMixin
 
@@ -203,7 +203,7 @@ class EmailView(LoginRequiredJSONMixin,View):
         # from_email, 谁发的
         # recipient_list　　收件人列表
         subject = '激活邮件'
-        message = 'ｍｅｓｓａｇｅ'
+        message = ''
         from_email = settings.EMAIL_HOST_USER
         recipient_list = [email]
         #激活　ｕｒｌ中包含　用户的信息就可以
@@ -230,3 +230,23 @@ class EmailView(LoginRequiredJSONMixin,View):
 
         # ６．返回响应
         return http.JsonResponse({'code':'ok','errmsg':'ok'})
+
+
+class EmailVerifyView(View):
+
+    def get(self,request):
+        token = request.GET.get('token')
+        if token is None:
+            return http.HttpResponseBadRequest('缺少参数')
+        user_id=check_verfy_email_token(token)
+        if user_id is None:
+            return http.HttpResponseBadRequest('参数错误')
+        try:
+            user = User.objects.get(pk = user_id)
+            if user is not None:
+                user.email_active = True
+                user.save()
+        except User.DoesNotExist:
+            return http.HttpResponseBadRequest('参数错误')
+
+        return redirect(reverse('users:info'))

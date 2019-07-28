@@ -1,5 +1,6 @@
 import re
 from django.contrib.auth.backends import ModelBackend
+from itsdangerous import BadData
 
 from apps.users.models import User
 from meiduo import settings
@@ -48,3 +49,11 @@ def generic_verify_email_url(user_id):
     verify_url = settings.EMAIL_VERIFY_URL + '?token=' + token
     # 返回数据
     return verify_url
+
+def check_verfy_email_token(token):
+    s = Serializer(secret_key=settings.SECRET_KEY,expires_in=3600)
+    try:
+        result = s.loads(token)
+    except BadData:
+        return None
+    return result.get('user_id')
