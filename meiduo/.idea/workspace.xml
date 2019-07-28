@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f458de-8c08-46af-a8b0-106798236dbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/areas/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/response_code.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/QQ-weixin.png" afterPath="$PROJECT_DIR$/static/images/QQ-weixin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/adv01.jpg" afterPath="$PROJECT_DIR$/static/images/adv01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/adv02.jpg" afterPath="$PROJECT_DIR$/static/images/adv02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/arrow.png" afterPath="$PROJECT_DIR$/static/images/arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/banner01.jpg" afterPath="$PROJECT_DIR$/static/images/banner01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/banner02.jpg" afterPath="$PROJECT_DIR$/static/images/banner02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/banner03.jpg" afterPath="$PROJECT_DIR$/static/images/banner03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/bar_code.jpg" afterPath="$PROJECT_DIR$/static/images/bar_code.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/cat.jpg" afterPath="$PROJECT_DIR$/static/images/cat.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/clock.jpeg" afterPath="$PROJECT_DIR$/static/images/clock.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/clock.jpg" afterPath="$PROJECT_DIR$/static/images/clock.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/down.png" afterPath="$PROJECT_DIR$/static/images/down.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/edit.png" afterPath="$PROJECT_DIR$/static/images/edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/find-password.png" afterPath="$PROJECT_DIR$/static/images/find-password.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods001.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods001.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods002.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods002.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods003.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods003.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods004.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods004.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods005.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods005.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods006.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods006.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods007.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods007.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods008.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods008.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods/goods009.jpg" afterPath="$PROJECT_DIR$/static/images/goods/goods009.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/goods_450.jpg" afterPath="$PROJECT_DIR$/static/images/goods_450.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/icons.png" afterPath="$PROJECT_DIR$/static/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/icons02.png" afterPath="$PROJECT_DIR$/static/images/icons02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/interval_line.png" afterPath="$PROJECT_DIR$/static/images/interval_line.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/left_bg.jpg" afterPath="$PROJECT_DIR$/static/images/left_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/login_banner.png" afterPath="$PROJECT_DIR$/static/images/login_banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/logo.png" afterPath="$PROJECT_DIR$/static/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/logo02.png" afterPath="$PROJECT_DIR$/static/images/logo02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/missing.png" afterPath="$PROJECT_DIR$/static/images/missing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/pay_icons.png" afterPath="$PROJECT_DIR$/static/images/pay_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/pic_code.jpg" afterPath="$PROJECT_DIR$/static/images/pic_code.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/register_banner.png" afterPath="$PROJECT_DIR$/static/images/register_banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/selected.png" afterPath="$PROJECT_DIR$/static/images/selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/shine.png" afterPath="$PROJECT_DIR$/static/images/shine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/shop_cart.png" afterPath="$PROJECT_DIR$/static/images/shop_cart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/slide01.jpg" afterPath="$PROJECT_DIR$/static/images/slide01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/slide02.jpg" afterPath="$PROJECT_DIR$/static/images/slide02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/slide03.jpg" afterPath="$PROJECT_DIR$/static/images/slide03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/slide04.jpg" afterPath="$PROJECT_DIR$/static/images/slide04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/stars.png" afterPath="$PROJECT_DIR$/static/images/stars.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/success.png" afterPath="$PROJECT_DIR$/static/images/success.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/time_count_bg.png" afterPath="$PROJECT_DIR$/static/images/time_count_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/e3c4456d-cc9b-4f63-a78d-dd6fb8b373fc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/e3c4456d-cc9b-4f63-a78d-dd6fb8b373fc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/url.py" afterPath="$PROJECT_DIR$/apps/users/url.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meiduo/urls.py" afterPath="$PROJECT_DIR$/meiduo/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/404.html" afterPath="$PROJECT_DIR$/static/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/base.html" afterPath="$PROJECT_DIR$/static/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/cart.html" afterPath="$PROJECT_DIR$/static/cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/jquery.pagination.css" afterPath="$PROJECT_DIR$/static/css/jquery.pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/reset.css" afterPath="$PROJECT_DIR$/static/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/detail.html" afterPath="$PROJECT_DIR$/static/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/goods_judge.html" afterPath="$PROJECT_DIR$/static/goods_judge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/axios-0.18.0.min.js" afterPath="$PROJECT_DIR$/static/js/axios-0.18.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="$PROJECT_DIR$/static/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/cart.js" afterPath="$PROJECT_DIR$/static/js/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/common.js" afterPath="$PROJECT_DIR$/static/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/detail.js" afterPath="$PROJECT_DIR$/static/js/detail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/goods_judge.js" afterPath="$PROJECT_DIR$/static/js/goods_judge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/host.js" afterPath="$PROJECT_DIR$/static/js/host.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/index.js" afterPath="$PROJECT_DIR$/static/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/static/js/jquery-1.12.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.pagination.min.js" afterPath="$PROJECT_DIR$/static/js/jquery.pagination.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/list.js" afterPath="$PROJECT_DIR$/static/js/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="$PROJECT_DIR$/static/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/oauth_callback.js" afterPath="$PROJECT_DIR$/static/js/oauth_callback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/order_success.js" afterPath="$PROJECT_DIR$/static/js/order_success.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/place_order.js" afterPath="$PROJECT_DIR$/static/js/place_order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/register.js" afterPath="$PROJECT_DIR$/static/js/register.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/slide.js" afterPath="$PROJECT_DIR$/static/js/slide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/user_center_info.js" afterPath="$PROJECT_DIR$/static/js/user_center_info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/user_center_order.js" afterPath="$PROJECT_DIR$/static/js/user_center_order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/user_center_pass.js" afterPath="$PROJECT_DIR$/static/js/user_center_pass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/user_center_site.js" afterPath="$PROJECT_DIR$/static/js/user_center_site.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/vue-2.5.16.js" afterPath="$PROJECT_DIR$/static/js/vue-2.5.16.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/list.html" afterPath="$PROJECT_DIR$/static/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/order_success.html" afterPath="$PROJECT_DIR$/static/order_success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/pay_success.html" afterPath="$PROJECT_DIR$/static/pay_success.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/place_order.html" afterPath="$PROJECT_DIR$/static/place_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/register_vue.html" afterPath="$PROJECT_DIR$/static/register_vue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/search.html" afterPath="$PROJECT_DIR$/static/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/user_center_order.html" afterPath="$PROJECT_DIR$/static/user_center_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/user_center_pass.html" afterPath="$PROJECT_DIR$/static/user_center_pass.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -158,8 +67,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/areas/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -257,8 +166,8 @@
         <option value="$PROJECT_DIR$/static/js/user_center_site.js" />
         <option value="$PROJECT_DIR$/templates/user_center_site.html" />
         <option value="$PROJECT_DIR$/utils/response_code.py" />
-        <option value="$PROJECT_DIR$/apps/areas/views.py" />
         <option value="$PROJECT_DIR$/apps/test.py" />
+        <option value="$PROJECT_DIR$/apps/areas/views.py" />
       </list>
     </option>
   </component>
@@ -285,7 +194,7 @@
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1231" />
-    <option name="height" value="892" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -740,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564281294326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="展示省市区数据&#10;">
+      <created>1564313610507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564313610507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -753,20 +669,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1231" height="892" extended-state="6" />
+    <frame x="65" y="24" width="1231" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2724979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2724979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21867116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3292517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3199498" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3199498" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38911563" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.293601" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.292517" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -785,16 +701,16 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32054794" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3199498" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38911563" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27332965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2724979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21882951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21867116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31860778" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.293601" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@meiduo" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -808,7 +724,8 @@
     <MESSAGE value="邮箱保存" />
     <MESSAGE value="生成邮件验证连接" />
     <MESSAGE value="导入省市区数据&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="导入省市区数据&#10;" />
+    <MESSAGE value="展示省市区数据&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="展示省市区数据&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,12 +737,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/areas/views.py</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/areas/views.py</url>
-          <line>29</line>
+          <line>39</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -849,14 +766,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.virtualenvs/meiduo_first/lib/python3.5/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1247,10 +1156,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meiduo_first/lib/python3.5/site-packages/django/core/cache/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="90" column="6" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/areas/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
