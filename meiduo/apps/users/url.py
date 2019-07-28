@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^emails/verification/$', views.EmailVerifyView.as_view(), name='emailverifications'),
     url(r'^usernames/(?P<username>[a-zA-Z0-9_-]{5,20})/$', views.RegisterCountView.as_view(), name='registercount'),
     url(r'^mobiles/(?P<mobile>1[3-9]\d{9})/count/$', views.MobileCountView.as_view(), name='mobilecount'),
+    url(r'^addresses/$', views.AdressView.as_view(), name='addresses'),
 ]

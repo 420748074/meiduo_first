@@ -105,40 +105,20 @@ var vm = new Vue({
         // 确认密码
         check_password2: function () {
             if (this.password != this.password2) {
-                this.error_password2= true;
-                this.error_password2_message = '密码不一致';
+                this.error_password2 = true;
+                this.error_password2_message='密码不一致'
             } else {
-                this.error_check_password = false;
+                this.error_password2 = false;
             }
         },
         // 检查手机号
         check_mobile: function () {
-            var re = /^1[3456789]\d{9}$/;
+            var re = /^1[345789]\d{9}$/;
             if (re.test(this.mobile)) {
-                this.error_mobile = false;
+                this.error_phone = false;
             } else {
                 this.error_mobile_message = '您输入的手机号格式不正确';
-                this.error_mobile = true;
-            }
-            if (this.error_mobile == false) {
-                //拼接url
-                let url = '/mobiles/'+ this.mobile + '/count/';
-                axios.get(url, {
-                    responseType: 'json'
-                })
-                    .then(response => {
-                        //成功之后进行判断
-                        if (response.data.count == 1) {
-                            this.error_mobile_message = '手机号已存在';
-                            this.error_mobile = true;
-                        } else {
-                            this.error_mobile = false;
-                        }
-                    })
-                    .catch(error => {
-                        //失败控制台打印信息
-                        console.log(error.response);
-                    })
+                this.error_phone = true;
             }
 
         },

@@ -39,6 +39,7 @@ var vm = new Vue({
         // 默认地址id
         this.default_address_id = default_address_id;
     },
+    //watch 观察
     watch: {
         // 监听到省份id变化
         'form_address.province_id': function () {
@@ -51,7 +52,6 @@ var vm = new Vue({
                         if (response.data.code == '0') {
                             // this.cities = response.data.sub_data.subs;
                             this.cities = response.data.sub_list;
-
                         } else {
                             console.log(response.data);
                             this.cities = [];
@@ -72,6 +72,7 @@ var vm = new Vue({
                 })
                     .then(response => {
                         if (response.data.code == '0') {
+                            // this.districts = response.data.sub_data.subs;
                             this.districts = response.data.sub_list;
                         } else {
                             console.log(response.data);
@@ -284,27 +285,27 @@ var vm = new Vue({
         },
         // 设置默认地址
         set_default(index){
-    let url = '/addresses/' + this.addresses[index].id + '/default/';
-    axios.put(url, {}, {
-        headers: {
-            'X-CSRFToken':getCookie('csrftoken')
+            var url = this.host + '/addresses/' + this.addresses[index].id + '/default/';
+            axios.put(url, {}, {
+                headers: {
+                    'X-CSRFToken': getCookie('csrftoken')
+                },
+                responseType: 'json'
+            })
+                .then(response => {
+                    if (response.data.code == '0') {
+                        // 设置默认地址标签
+                        this.default_address_id = this.addresses[index].id;
+                    } else if (response.data.code == '4101') {
+                        location.href = '/login/?next=/addresses/';
+                    } else {
+                        alert(response.data.errmsg);
+                    }
+                })
+                .catch(error => {
+                    console.log(error.response);
+                })
         },
-        responseType: 'json'
-    })
-        .then(response => {
-            if (response.data.code == '0') {
-                // 设置默认地址标签
-                this.default_address_id = this.addresses[index].id;
-            } else if (response.data.code == '4101') {
-                location.href = '/login/?next=/addresses/';
-            } else {
-                alert(response.data.errmsg);
-            }
-        })
-        .catch(error => {
-            console.log(error.response);
-        })
-},
         // 设置地址title
         show_edit_title(index){
             this.edit_title_index = index;

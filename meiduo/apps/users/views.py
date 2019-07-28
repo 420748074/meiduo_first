@@ -172,7 +172,7 @@ class UserInfoView(LoginRequiredMixin,View):
 
         return render(request, 'user_center_info.html',context=context)
 
-
+# email发送邮件
 class EmailView(LoginRequiredJSONMixin,View):
 
     def put(self,request):
@@ -231,7 +231,7 @@ class EmailView(LoginRequiredJSONMixin,View):
         # ６．返回响应
         return http.JsonResponse({'code':'ok','errmsg':'ok'})
 
-
+# email验证
 class EmailVerifyView(View):
 
     def get(self,request):
@@ -250,3 +250,11 @@ class EmailVerifyView(View):
             return http.HttpResponseBadRequest('参数错误')
 
         return redirect(reverse('users:info'))
+
+# 收货地址
+
+class AdressView(View):
+
+    def get(self,request):
+
+        return render(request,'user_center_site.html')

@@ -34,7 +34,7 @@ var vm = new Vue({
         // 表单提交
         on_submit: function(){
             this.check_username();
-            this.check_password();
+            this.check_pwd();
 
             if (this.error_username == true || this.error_pwd == true) {
                 // 不满足登录条件：禁用表单
@@ -49,7 +49,7 @@ var vm = new Vue({
                     responseType: 'json'
                 })
                 .then(response => {
-                    location.href = response.data.login_url;
+                    location.href = response.data.ono;
                 })
                 .catch(error => {
                     console.log(error.response);
