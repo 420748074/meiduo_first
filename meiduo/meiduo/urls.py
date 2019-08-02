@@ -23,4 +23,6 @@ urlpatterns = [
     url(r'^',include('apps.verificationgs.url',namespace='verificationgs')),
     url(r'^',include('apps.aouth.url',namespace='aouth')),
     url(r'^',include('apps.areas.urls',namespace='areas')),
+    url(r'^',include('apps.goods.urls',namespace='goods')),
+    url(r'^search/', include('haystack.urls')),
 ]

@@ -107,7 +107,8 @@ class OauthQQUserViw(View):
         # openid_token
         openid = check_openid_token(access_token)
         if openid is None:
-            return http.HttpResponseBadRequest('openid错误')
+            # return http.HttpResponseBadRequest('openid错误')
+            return render(request,'oauth_callback.html',{'openid_errmsg':'openidguoqi '})
         # 3.绑定信息
         #     openid      是通过对oepnid_token的解密来获取
         #     user        需要根据 手机号进行判断
