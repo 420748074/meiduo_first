@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f458de-8c08-46af-a8b0-106798236dbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/contents/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/search_indexes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/goods/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/goods_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/imporgoods.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/search/indexes/goods/sku_text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/search/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fastfds/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fastfds/client.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fastfds/storage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/fastfds/upload.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/404.html" afterPath="$PROJECT_DIR$/templates/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/detail.html" afterPath="$PROJECT_DIR$/templates/detail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/list.html" afterPath="$PROJECT_DIR$/templates/list.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/user_center_pass.html" afterPath="$PROJECT_DIR$/templates/user_center_pass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/e3c4456d-cc9b-4f63-a78d-dd6fb8b373fc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/e3c4456d-cc9b-4f63-a78d-dd6fb8b373fc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/aouth/views.py" afterPath="$PROJECT_DIR$/apps/aouth/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/contents/models.py" afterPath="$PROJECT_DIR$/apps/contents/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/contents/url.py" afterPath="$PROJECT_DIR$/apps/contents/url.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/contents/views.py" afterPath="$PROJECT_DIR$/apps/contents/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/test.py" afterPath="$PROJECT_DIR$/apps/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/url.py" afterPath="$PROJECT_DIR$/apps/users/url.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meiduo/settings.py" afterPath="$PROJECT_DIR$/meiduo/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/meiduo/urls.py" afterPath="$PROJECT_DIR$/meiduo/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/detail.js" afterPath="$PROJECT_DIR$/static/js/detail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/search.html" afterPath="$PROJECT_DIR$/static/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/user_center_order.html" afterPath="$PROJECT_DIR$/static/user_center_order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user_center_info.html" afterPath="$PROJECT_DIR$/templates/user_center_info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user_center_site.html" afterPath="$PROJECT_DIR$/templates/user_center_site.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +64,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="566" column="20" lean-forward="false" selection-start-line="566" selection-start-column="20" selection-end-line="566" selection-end-column="20" />
+            <state relative-caret-position="287">
+              <caret line="568" column="0" lean-forward="true" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#722#2886#0" expanded="false" />
@@ -736,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564316537389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="主页商品及详情&#10;">
+      <created>1564735591204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564735591204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -752,7 +726,7 @@
     <frame x="65" y="24" width="1146" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2201087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2201087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17934783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -806,7 +780,8 @@
     <MESSAGE value="导入省市区数据&#10;" />
     <MESSAGE value="展示省市区数据&#10;" />
     <MESSAGE value="缓存省市区&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="缓存省市区&#10;" />
+    <MESSAGE value="主页商品及详情&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="主页商品及详情&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,8 +1325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="566" column="20" lean-forward="false" selection-start-line="566" selection-start-column="20" selection-end-line="566" selection-end-column="20" />
+        <state relative-caret-position="287">
+          <caret line="568" column="0" lean-forward="true" selection-start-line="568" selection-start-column="0" selection-end-line="568" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#722#2886#0" expanded="false" />
