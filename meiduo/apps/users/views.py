@@ -547,7 +547,7 @@ class ChangePasswordView(View):
 """
 
 
-class HistoryView(LoginRequiredMixin, View):
+class HistoryView(LoginRequiredJSONMixin, View):
     def post(self, request):
         user = request.user
         data = json.loads(request.body.decode())
@@ -558,11 +558,31 @@ class HistoryView(LoginRequiredMixin, View):
             return http.JsonResponse({'code':RETCODE.NODATAERR,'errmsg':'暂无数据'})
 
         redis_conn =get_redis_connection('history')
-        pl=redis_conn.pipelne()
+        pl=redis_conn.pipeline()
         #先去重，好到和当前ｖｌｕｅ一样的
         pl.lrem('history_{}'.format(user.id),0,sku_id)
-        redis_conn.lpush('history_{}'.format(user.id),sku_id)
+        pl.lpush('history_{}'.format(user.id),sku_id)
         # 只保留五个数据
         pl.ltrim('history_{}'.format(user.id),0,4)
         pl.execute()
         return http.JsonResponse({'code':RETCODE.OK,'errmsg':'ok'})
+
+    def get(self,request):
+
+        # 获取用户信息
+        user = request.user
+        # 连接ｒｅｄｉｓ，获取用户信息
+        redis_conn = get_redis_connection('history')
+        # 对ｉｄ列表进行遍历
+        ids = redis_conn.lrange('history_{}'.format(user.id),0,4)
+        skus=[]
+        for sku_id in ids:
+            sku = SKU.objects.get(pk=sku_id)
+            skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'default_image_url': sku.default_image.url,
+                'price': sku.price
+            })
+
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'skus': skus})

@@ -70,3 +70,38 @@
 # a = 0
 # if True:
 #     print (bool(a))
+
+# i = int(input('净利润:'))
+# arr = [1000000,600000,400000,200000,100000,0]
+# rat = [0.01,0.015,0.03,0.05,0.075,0.1]
+# r = 0
+# for idx in range(0,6):
+#     if i>arr[idx]:
+#         r+=(i-arr[idx])*rat[idx]
+#         print ((i-arr[idx])*rat[idx])
+#         i=arr[idx]
+# print (r)
+# num = 0
+# for i in range(1,5):
+#     for j in range(1,5):
+#         for k in range(1,5):
+#             if ( i != k ) and (i != j) and (j != k):
+#                 num+=1
+#                 print(i,j,k)
+# print(num)
+
+#
+# for a in range(1,1000):
+#     for c in range(1,1000):
+#         for d in range(1,1000):
+#             if a+100 ==c*c & a+268 == d*d:
+#                 print(a)
+
+# for i in range(1,85):
+#     if 168 % i == 0:
+#         j = 168 / i;
+#         if  i > j and (i + j) % 2 == 0 and (i - j) % 2 == 0 :
+#             m = (i + j) / 2
+#             n = (i - j) / 2
+#             x = n * n - 100
+#             print(x)
