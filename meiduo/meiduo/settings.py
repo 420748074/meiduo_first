@@ -46,6 +46,15 @@ INSTALLED_APPS = [
     'haystack',
     'apps.goods',
     'apps.carts',
+    'django_crontab', # 定时任务
+]
+CRONJOBS = [
+    # 每1分钟生成一次首页静态文件
+    # *分*时*日*月*周
+    # 参数１：频次
+    # 参数２：定时任务（函数）
+    # 参数３：日志
+    ('*/1 * * * *', 'apps.contents.crons.generate_static_index_html', '>> ' + os.path.join(BASE_DIR, 'logs/crontab.log'))
 ]
 
 MIDDLEWARE = [

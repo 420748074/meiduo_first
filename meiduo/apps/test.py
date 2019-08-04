@@ -105,3 +105,13 @@
 #             n = (i - j) / 2
 #             x = n * n - 100
 #             print(x)
+import pickle
+import base64
+
+a = [1,2,3,4,5]
+a_list = base64.b64encode(pickle.dumps(a))
+print(a_list)
+# pi = pickle.loads(a)
+# print(a)
+a_decode = pickle.loads(base64.b64decode(a_list))
+print(a_decode)

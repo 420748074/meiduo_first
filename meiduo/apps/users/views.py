@@ -10,6 +10,7 @@ from django.db import DatabaseError
 import logging
 from django_redis import get_redis_connection
 
+from apps.carts.utils import merge_cookie_to_redis
 from apps.goods.models import SKU
 from apps.users.utils import generic_verify_email_url, check_verfy_email_token
 from meiduo import settings
@@ -143,6 +144,7 @@ class LoginView(View):
             response.set_cookie('username', user.username, max_age=None)
         else:
             response.set_cookie('username', user.username, max_age=3600 * 24 * 14)
+        response=merge_cookie_to_redis(request,user,response)
 
         return response
 
